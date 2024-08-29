@@ -1,7 +1,7 @@
 <?php 
     
     require_once("testimonial.php");
-    $sql = "SELECT * FROM dbmohammad";
+    $sql = "SELECT * FROM dbmohammed";
     $result = $con->query($sql);	
 ?>
 

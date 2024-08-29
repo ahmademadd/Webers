@@ -16,9 +16,7 @@
     $sql = "CREATE DATABASE IF NOT EXISTS dbproject";
 
     // Execute the query to create the database
-    if ($con->query($sql) === TRUE) {
-        echo "Database 'dbproject' created successfully.<br>";
-    } else {
+    if ($con->query($sql) === FALSE) {
         echo "Error creating database: " . $con->error;
     }
 
@@ -37,9 +35,62 @@
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;";
 
     // Execute table creation query
-    if ($con->query($sql) === TRUE) {
-        echo "Table 'dbproject' created successfully.<br>";
-    } else {
+    if ($con->query($sql) === FALSE) {
+        echo "Error creating table: " . $con->error;
+    }
+
+     // SQL to create the team member table
+     $sql = "CREATE TABLE IF NOT EXISTS dbmalek (
+        myname VARCHAR(30) NOT NULL,
+        mysubject VARCHAR(30) NOT NULL,
+        EmailAddress TEXT NOT NULL,
+        Messages TEXT NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;";
+
+    // Execute table creation query
+    if ($con->query($sql) === FALSE) {
+        echo "Error creating table: " . $con->error;
+    }
+
+
+     // SQL to create the team member table
+     $sql = "CREATE TABLE IF NOT EXISTS dbahmad (
+        myname VARCHAR(30) NOT NULL,
+        mysubject VARCHAR(30) NOT NULL,
+        EmailAddress TEXT NOT NULL,
+        Messages TEXT NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;";
+
+    // Execute table creation query
+    if ($con->query($sql) === FALSE) {
+        echo "Error creating table: " . $con->error;
+    }
+
+
+     // SQL to create the team member table
+     $sql = "CREATE TABLE IF NOT EXISTS dbmohammed (
+        myname VARCHAR(30) NOT NULL,
+        mysubject VARCHAR(30) NOT NULL,
+        EmailAddress TEXT NOT NULL,
+        Messages TEXT NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;";
+
+    // Execute table creation query
+    if ($con->query($sql) === FALSE) {
+        echo "Error creating table: " . $con->error;
+    }
+
+
+     // SQL to create the team member table
+     $sql = "CREATE TABLE IF NOT EXISTS dbomar (
+        myname VARCHAR(30) NOT NULL,
+        mysubject VARCHAR(30) NOT NULL,
+        EmailAddress TEXT NOT NULL,
+        Messages TEXT NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;";
+
+    // Execute table creation query
+    if ($con->query($sql) === FALSE) {
         echo "Error creating table: " . $con->error;
     }
     

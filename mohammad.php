@@ -1,7 +1,7 @@
 <?php 
     require_once("testimonial.php");
 
-    $sql = "INSERT INTO dbmohammad (myname, EmailAddress, mysubject, Messages) 
+    $sql = "INSERT INTO dbmohammed (myname, EmailAddress, mysubject, Messages) 
         VALUES (?, ?, ?, ?)";
 
     $stmt = $con->prepare($sql);
