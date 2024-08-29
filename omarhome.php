@@ -197,7 +197,7 @@
                         <h3>Quick Links</h3>
                         <ul class="footer-links">
                             <li><a href="#home1">Home</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
                             <li><a href="services.html">Get a Service</a></li>
                         </ul>
                     </div>
