@@ -1,3 +1,7 @@
+# Website Access
+
+To use the website download XAMPP through https://www.apachefriends.org/. In the XAMPP control panel start Apache and MySQL. Save all documents inside a folder named "project" save this folder in the directory under "C:\xampp\htdocs". then visit the url "http://localhost/project/home.php". 
+
 # Website Overview
 
 The website serves as a comprehensive showcase for the team members, their expertise, a portfolio of completed projects, and the services offered. It also includes a **contact form** for users interested in obtaining services.
