@@ -1,6 +1,5 @@
 # Website Access
-
-To use the website download XAMPP through https://www.apachefriends.org/. In the XAMPP control panel start Apache and MySQL. Save all documents inside a folder named "project" save this folder in the directory under "C:\xampp\htdocs". then visit the url "http://localhost/project/home.php". 
+http://elb-1859305876.us-east-1.elb.amazonaws.com/home.php
 
 # Website Overview
 
